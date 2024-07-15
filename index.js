@@ -7,7 +7,7 @@ function scuberGreetingForFeet(number) {
       return "No can do.";
     } else return "I will gladly take your thirty bucks.";
   }
-  if(number >2000 && number => 400){return "That will be twenty bucks."}
+  if(number > 400 && number <= 2000){return "That will be twenty bucks."}
 }
 // console.log(scuberGreetingForFeet(2501));
 
